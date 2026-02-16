@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CABS 24*7 – Premium 24×7 Cab Service in Muzaffarpur | Safe • Reliable • On-Time</title>
+    <meta name="description" content="CABS 24*7 – Premium 24×7 Cab Service in Muzaffarpur. Book reliable, safe & affordable taxi services for local, outstation, airport & intercity travel since 2020. Call +91 70709 96533">
+    <meta name="keywords" content="Cab Service in Muzaffarpur, Taxi Service 24×7, Muzaffarpur Cab Service, Outstation Cab, Airport Taxi, Local Cab, Book Cab Online">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-yellow: #FFD700;
+            --dark-yellow: #FFB800;
+            --black: #111111;
+            --dark-gray: #222222;
+            --light-gray: #f8f9fa;
+            --white: #ffffff;
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.15);
+            --radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark-gray);
+            background-color: var(--white);
+            overflow-x: hidden;
+            line-height: 1.7;
+        }
+        
+        .hindi {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Premium Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 18px 0;
+            border-bottom: 2px solid var(--primary-yellow);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--black);
+            font-weight: 800;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+        }
+        
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo-main {
+            font-size: 28px;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1;
+            letter-spacing: 1px;
+        }
+        
+        .logo-tagline {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--primary-yellow);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: 3px;
+        }
+        
+        /* Language Toggle */
+        .lang-toggle {
+            display: flex;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            padding: 4px;
+            margin: 0 30px;
+        }
+        
+        .lang-btn {
+            padding: 8px 20px;
+            border-radius: 50px;
+            background: transparent;
+            color: #aaa;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+        }
+        
+        .lang-btn.active {
+            background: var(--primary-yellow);
+            color: var(--black);
+        }
+        
+        /* Navigation */
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+        }
+        
+        nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            position: relative;
+            padding: 5px 0;
+            transition: var(--transition);
+        }
+        
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--primary-yellow);
+            transition: width 0.4s ease;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary-yellow);
+        }
+        
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+        
+        .header-cta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .call-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--primary-yellow);
+            color: var(--black);
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+        }
+        
+        .call-btn:hover {
+            background: var(--dark-yellow);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(255, 184, 0, 0.4);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+                        url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80') center/cover no-repeat;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 70% 50%, rgba(255, 215, 0, 0.15) 0%, transparent 70%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            color: var(--white);
+            max-width: 800px;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 215, 0, 0.15);
+            color: var(--primary-yellow);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+        }
+        
+        .hero-title {
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+        
+        .hero-highlight {
+            color: var(--primary-yellow);
+            position: relative;
+        }
+        
+        .hero-highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 215, 0, 0.3);
+            z-index: -1;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 700px;
+        }
+        
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .stat-number {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--primary-yellow);
+            line-height: 1;
+        }
+        
+        .stat-text {
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 5px;
+            opacity: 0.8;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px 35px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn-primary {
+            background: var(--primary-yellow);
+            color: var(--black);
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+        }
+        
+        .btn-primary:hover {
+            background: var(--dark-yellow);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(255, 184, 0, 0.5);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary-yellow);
+            transform: translateY(-5px);
+        }
+        
+        /* Section Common Styles */
+        section {
+            padding: 100px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title .subtitle {
+            font-size: 18px;
+            color: var(--primary-yellow);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .section-title h2 {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--black);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .section-title .title-description {
+            font-size: 18px;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* Booking Section */
+        #booking {
+            background: var(--light-gray);
+        }
+        
+        .booking-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .booking-form {
+            background: var(--white);
+            padding: 50px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .booking-form h3 {
+            font-size: 32px;
+            color: var(--black);
+            margin-bottom: 10px;
+        }
+        
+        .booking-form p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-yellow);
+            box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.1);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .booking-image {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 100%;
+        }
+        
+        .booking-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--primary-yellow);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-15px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            color: var(--black);
+            font-size: 32px;
+            box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+        }
+        
+        .service-card h3 {
+            font-size: 24px;
+            color: var(--black);
+            margin-bottom: 15px;
+        }
+        
+        .service-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        /* Cab Fleet */
+        #fleet {
+            background: var(--light-gray);
+        }
+        
+        .fleet-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .fleet-image {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .fleet-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .fleet-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .fleet-feature {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .fleet-feature i {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-yellow);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--black);
+            font-size: 20px;
+        }
+        
+        /* Why Choose Us */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .feature-card i {
+            font-size: 48px;
+            color: var(--primary-yellow);
+            margin-bottom: 25px;
+        }
+        
+        .feature-card h3 {
+            font-size: 22px;
+            color: var(--black);
+            margin-bottom: 15px;
+        }
+        
+        /* Testimonials */
+        #testimonials {
+            background: var(--light-gray);
+        }
+        
+        .testimonials-container {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .testimonials-slider {
+            display: flex;
+            gap: 30px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 20px 0;
+            scrollbar-width: none;
+        }
+        
+        .testimonials-slider::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .testimonial-card {
+            flex: 0 0 350px;
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 35px;
+            box-shadow: var(--shadow);
+        }
+        
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--black);
+            font-weight: 700;
+        }
+        
+        .testimonial-info h4 {
+            font-size: 18px;
+            color: var(--black);
+            margin-bottom: 5px;
+        }
+        
+        .testimonial-info .rating {
+            color: var(--primary-yellow);
+            font-size: 14px;
+        }
+        
+        .testimonial-text {
+            color: #666;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+        
+        .contact-info h3 {
+            font-size: 36px;
+            color: var(--black);
+            margin-bottom: 20px;
+        }
+        
+        .contact-info p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .contact-details {
+            margin-top: 40px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-yellow);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--black);
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        
+        .contact-text h4 {
+            font-size: 18px;
+            color: var(--black);
+            margin-bottom: 5px;
+        }
+        
+        .contact-map {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 100%;
+        }
+        
+        .contact-map iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
+            border: none;
+        }
+        
+        /* Floating Buttons */
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 999;
+        }
+        
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--black);
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+        }
+        
+        .call-btn-float {
+            background: var(--primary-yellow);
+        }
+        
+        .map-btn-float {
+            background: var(--black);
+            color: white;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.1) translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--black);
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .footer-logo .logo-main {
+            color: var(--white);
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .footer-logo .logo-tagline {
+            color: var(--primary-yellow);
+        }
+        
+        .footer-logo p {
+            margin-top: 20px;
+            opacity: 0.7;
+            line-height: 1.8;
+        }
+        
+        .footer-column h3 {
+            font-size: 20px;
+            color: var(--primary-yellow);
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-yellow);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-column ul li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-column ul li a:hover {
+            color: var(--primary-yellow);
+            padding-left: 8px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background: var(--primary-yellow);
+            color: var(--black);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 15px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1100px) {
+            .hero-title {
+                font-size: 52px;
+            }
+            
+            .section-title h2 {
+                font-size: 42px;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .booking-container,
+            .fleet-container,
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .booking-image,
+            .fleet-image {
+                order: -1;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav ul {
+                position: fixed;
+                top: 90px;
+                left: 0;
+                width: 100%;
+                background: rgba(17, 17, 17, 0.98);
+                flex-direction: column;
+                padding: 30px;
+                gap: 25px;
+                display: none;
+                z-index: 999;
+                backdrop-filter: blur(20px);
+            }
+            
+            nav ul.active {
+                display: flex;
+            }
+            
+            .lang-toggle {
+                margin: 20px 0;
+            }
+            
+            .header-cta {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 42px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .section-title h2 {
+                font-size: 36px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .booking-form {
+                padding: 30px;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .fleet-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .floating-buttons {
+                bottom: 20px;
+                right: 20px;
+            }
+            
+            .floating-btn {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 36px;
+            }
+            
+            .section-title h2 {
+                font-size: 32px;
+            }
+            
+            .stat-number {
+                font-size: 36px;
+            }
+            
+            .testimonial-card {
+                flex: 0 0 300px;
+            }
+            
+            section {
+                padding: 70px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Premium Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-taxi"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="logo-main">CABS 24*7</div>
+                    <div class="logo-tagline">24×7 Cab Service | Safe • Reliable • On-Time</div>
+                </div>
+            </div>
+            
+            <!-- Language Toggle -->
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="langEn">EN</button>
+                <button class="lang-btn" id="langHi">हिंदी</button>
+            </div>
+            
+            <!-- Navigation -->
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="tel:+917070996533" class="call-btn">
+                    <i class="fas fa-phone-alt"></i>
+                    +91 70709 96533
+                </a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Premium Cab Service Since 2020</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="hindi">CABS 24*7 –</span> Reliable Cab Service in <span class="hero-highlight">Muzaffarpur</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    24×7 Safe & Affordable Taxi Service – Call Anytime for Local, Outstation & Airport Rides
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-text">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-text">Service Available</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-text">Happy Customers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-text">Safe & Insured</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="tel:+917070996533" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/917070996533" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Now
+                    </a>
+                    <a href="#booking" class="btn btn-secondary">
+                        <i class="fas fa-taxi"></i> Book Your Cab
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">About CABS 24*7</div>
+                <h2>Your Trusted Cab Service in <span class="hero-highlight">Muzaffarpur</span></h2>
+                <p class="title-description">
+                    Established in 2020, CABS 24*7 has been providing reliable, safe, and affordable taxi services in Muzaffarpur and nearby areas. We specialize in intercity and outstation travel with professional drivers and well-maintained vehicles.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Service Area</h3>
+                    <p>Muzaffarpur to all nearby and long-distance locations (intercity + outstation)</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24×7 Availability</h3>
+                    <p>Available anytime during service period for all your travel needs</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Safe & Secure</h3>
+                    <p>Verified drivers, GPS tracking, and insured vehicles for your safety</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-rupee-sign"></i>
+                    <h3>Affordable Rates</h3>
+                    <p>Transparent pricing with no hidden charges for all types of journeys</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Book Your Ride</div>
+                <h2>Online Cab <span class="hero-highlight">Booking</span></h2>
+                <p class="title-description">
+                    Fill the form below to book your cab. We'll confirm your booking via phone/WhatsApp immediately.
+                </p>
+            </div>
+            
+            <div class="booking-container">
+                <div class="booking-form">
+                    <h3>Book Your Cab Now</h3>
+                    <p>Get instant confirmation on your phone</p>
+                    
+                    <form id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pickup">Pickup Location</label>
+                                <input type="text" id="pickup" placeholder="Enter pickup address" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="drop">Drop Location</label>
+                                <input type="text" id="drop" placeholder="Enter destination" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <input type="time" id="time" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+91 70709 96533" value="+91 70709 96533" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Type</label>
+                            <select id="service" required>
+                                <option value="">Select Service</option>
+                                <option value="one-way">One Way Cab</option>
+                                <option value="round-trip">Round Trip Cab</option>
+                                <option value="local">Local Cab</option>
+                                <option value="outstation">Outstation Cab</option>
+                                <option value="airport">Airport Pickup/Drop</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Book Cab Now
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="booking-image">
+                    <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Luxury Cab Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Our Services</div>
+                <h2>Premium Cab <span class="hero-highlight">Services</span></h2>
+                <p class="title-description">
+                    We offer a wide range of taxi services to meet all your travel requirements in and around Muzaffarpur.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Pickup & Drop Service</h3>
+                    <p>Reliable pickup and drop services for any location in Muzaffarpur and nearby areas.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>One Way Cab</h3>
+                    <p>Affordable one-way taxi services for all destinations with fixed rates.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Round Trip Cab</h3>
+                    <p>Complete round trip packages with waiting time included for your convenience.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3>Local & Outstation Cab</h3>
+                    <p>Comfortable rides for both local city travel and long-distance outstation trips.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Airport Taxi Service</h3>
+                    <p>Timely airport transfers with flight tracking for stress-free travel.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Corporate Travel</h3>
+                    <p>Premium service for business travelers with professional drivers and luxury cars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cab Fleet Section -->
+    <section id="fleet">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Our Cab Fleet</div>
+                <h2>Premium <span class="hero-highlight">Honda Amaze</span> Cabs</h2>
+                <p class="title-description">
+                    Experience comfort and reliability with our well-maintained Honda Amaze fleet.
+                </p>
+            </div>
+            
+            <div class="fleet-container">
+                <div class="fleet-image">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Honda Amaze Cab">
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 32px; margin-bottom: 20px;">Honda Amaze – Premium Comfort</h3>
+                    <p style="margin-bottom: 25px; font-size: 18px; color: #666;">
+                        Our Honda Amaze cabs offer the perfect blend of comfort, space, and fuel efficiency. Ideal for both short city rides and long-distance journeys.
+                    </p>
+                    
+                    <div class="fleet-features">
+                        <div class="fleet-feature">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>Clean & Well-Maintained</h4>
+                                <p>Regularly serviced and sanitized</p>
+                            </div>
+                        </div>
+                        
+                        <div class="fleet-feature">
+                            <i class="fas fa-user-tie"></i>
+                            <div>
+                                <h4>Professional Driver</h4>
+                                <p>Experienced and verified drivers</p>
+                            </div>
+                        </div>
+                        
+                        <div class="fleet-feature">
+                            <i class="fas fa-snowflake"></i>
+                            <div>
+                                <h4>AC Cab</h4>
+                                <p>Full air conditioning for comfort</p>
+                            </div>
+                        </div>
+                        
+                        <div class="fleet-feature">
+                            <i class="fas fa-gas-pump"></i>
+                            <div>
+                                <h4>Fuel Included</h4>
+                                <p>All fuel costs included in fare</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <a href="#booking" class="btn btn-primary">
+                            <i class="fas fa-taxi"></i> Book Honda Amaze Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Why Choose Us</div>
+                <h2>Why Customers <span class="hero-highlight">Trust</span> CABS 24*7</h2>
+                <p class="title-description">
+                    We prioritize your safety, comfort, and time with our premium service standards.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24×7 Availability</h3>
+                    <p>Round-the-clock service for all your travel needs, anytime, anywhere.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Experienced & Verified Drivers</h3>
+                    <p>All drivers are background checked, trained, and professionally verified.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-car-side"></i>
+                    <h3>Clean & Well-Maintained Cars</h3>
+                    <p>Regularly serviced, sanitized vehicles with proper maintenance records.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>On-Time Pickup & Drop</h3>
+                    <p>Punctuality guaranteed with 98% on-time performance record.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Trusted Since 2020</h3>
+                    <p>4+ years of reliable service with thousands of satisfied customers.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Dedicated support team available round-the-clock for assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Customer Reviews</div>
+                <h2>What Our <span class="hero-highlight">Customers</span> Say</h2>
+                <p class="title-description">
+                    Read genuine reviews from our satisfied customers across Muzaffarpur.
+                </p>
+            </div>
+            
+            <div class="testimonials-container">
+                <div class="testimonials-slider" id="testimonialsSlider">
+                    <!-- Testimonials will be dynamically generated -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <div class="subtitle">Contact Us</div>
+                <h2>Get In <span class="hero-highlight">Touch</span></h2>
+                <p class="title-description">
+                    Reach out to us for bookings, inquiries, or to experience our premium service.
+                </p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Ready for a Premium Ride?</h3>
+                    <p>Contact us today for reliable cab services in Muzaffarpur and nearby areas.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call / WhatsApp</h4>
+                                <p>+91 70709 96533</p>
+                                <a href="tel:+917070996533" style="color: var(--primary-yellow); margin-right: 15px;">Call Now</a>
+                                <a href="https://wa.me/917070996533" target="_blank" style="color: var(--primary-yellow);">WhatsApp</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>cabs24*7muz@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Service Area</h4>
+                                <p>Muzaffarpur to all nearby and long-distance locations</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Service Hours</h4>
+                                <p>24 Hours, 7 Days a Week</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <a href="#booking" class="btn btn-primary">
+                            <i class="fas fa-taxi"></i> Book Your Cab Now
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.847468047324!2d85.37479731547415!3d26.120348183505498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed1144b4e5b2f7%3A0x4b4b4b4b4b4b4b4b!2sMuzaffarpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1678891234567!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-main">CABS 24*7</div>
+                    <div class="logo-tagline">24×7 Cab Service | Safe • Reliable • On-Time</div>
+                    <p>Premium cab services in Muzaffarpur since 2020. Offering reliable, safe, and affordable taxi services for local, outstation, airport, and intercity travel.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/917070996533" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#booking">Online Booking</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services">Pickup & Drop Service</a></li>
+                        <li><a href="#services">One Way Cab</a></li>
+                        <li><a href="#services">Round Trip Cab</a></li>
+                        <li><a href="#services">Local & Outstation Cab</a></li>
+                        <li><a href="#services">Airport Taxi Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone" style="margin-right: 10px; color: var(--primary-yellow);"></i> +91 70709 96533</li>
+                        <li><i class="fab fa-whatsapp" style="margin-right: 10px; color: var(--primary-yellow);"></i> Same Number on WhatsApp</li>
+                        <li><i class="fas fa-envelope" style="margin-right: 10px; color: var(--primary-yellow);"></i> cabs24*7muz@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--primary-yellow);"></i> Muzaffarpur, Bihar</li>
+                        <li><i class="fas fa-clock" style="margin-right: 10px; color: var(--primary-yellow);"></i> 24×7 Service Available</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2020 - <span id="currentYear"></span> CABS 24*7. All Rights Reserved. | Premium Cab Service in Muzaffarpur</p>
+                <p style="margin-top: 10px;">Designed for lead generation and customer convenience</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/917070996533" target="_blank" class="floating-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+917070996533" class="floating-btn call-btn-float">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://maps.app.goo.gl/7UbzxHyJtKTdmN7Z6" target="_blank" class="floating-btn map-btn-float">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Language toggle
+        const langEn = document.getElementById('langEn');
+        const langHi = document.getElementById('langHi');
+        
+        langEn.addEventListener('click', () => {
+            langEn.classList.add('active');
+            langHi.classList.remove('active');
+            // Here you would typically update the page content to English
+            document.querySelectorAll('.hindi').forEach(el => {
+                el.style.display = 'inline';
+            });
+        });
+        
+        langHi.addEventListener('click', () => {
+            langHi.classList.add('active');
+            langEn.classList.remove('active');
+            // Here you would typically update the page content to Hindi
+            document.querySelectorAll('.hindi').forEach(el => {
+                el.style.display = 'inline';
+            });
+        });
+        
+        // Booking form submission
+        const bookingForm = document.getElementById('bookingForm');
+        
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form values
+            const pickup = document.getElementById('pickup').value;
+            const drop = document.getElementById('drop').value;
+            const date = document.getElementById('date').value;
+            const time = document.getElementById('time').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            
+            // Create WhatsApp message
+            const serviceNames = {
+                'one-way': 'One Way Cab',
+                'round-trip': 'Round Trip Cab',
+                'local': 'Local Cab',
+                'outstation': 'Outstation Cab',
+                'airport': 'Airport Pickup/Drop'
+            };
+            
+            const serviceText = serviceNames[service] || service;
+            
+            const message = `New Cab Booking Enquiry from CABS 24*7 Website:%0A%0A📞 Phone: ${phone}%0A📍 Pickup: ${pickup}%0A🎯 Drop: ${drop}%0A📅 Date: ${date}%0A⏰ Time: ${time}%0A🚗 Service: ${serviceText}%0A%0APlease contact the customer immediately.`;
+            
+            // Send to WhatsApp
+            window.open(`https://wa.me/917070996533?text=${encodeURIComponent(message)}`, '_blank');
+            
+            // Send to email (using mailto as a fallback)
+            const emailSubject = `New Cab Booking - ${phone}`;
+            const emailBody = `New cab booking enquiry:%0A%0APhone: ${phone}%0APickup: ${pickup}%0ADrop: ${drop}%0ADate: ${date}%0ATime: ${time}%0AService: ${serviceText}`;
+            
+            window.open(`mailto:cabs24*7muz@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`, '_blank');
+            
+            // Show success message
+            alert('Thank you! Your booking request has been sent. We will contact you shortly on your phone number.');
+            
+            // Reset form
+            bookingForm.reset();
+            document.getElementById('phone').value = '+91 70709 96533';
+        });
+        
+        // Testimonials data
+        const testimonials = [
+            {
+                name: "Rajesh Kumar",
+                initial: "R",
+                rating: 5,
+                text: "Best cab service in Muzaffarpur! Used their service for airport drop. Driver was on time and car was very clean. Highly recommended!"
+            },
+            {
+                name: "Priya Sharma",
+                initial: "P",
+                rating: 5,
+                text: "Reliable and affordable service. Booked for outstation trip to Patna. Professional driver and comfortable ride. Will use again!"
+            },
+            {
+                name: "Amit Singh",
+                initial: "A",
+                rating: 5,
+                text: "24×7 availability is their biggest plus. Needed cab at midnight for emergency, they arrived within 20 minutes. Great service!"
+            },
+            {
+                name: "Sneha Verma",
+                initial: "S",
+                rating: 5,
+                text: "Clean Honda Amaze with AC. Driver was polite and knew all routes. Reasonable pricing compared to other services."
+            },
+            {
+                name: "Vikram Patel",
+                initial: "V",
+                rating: 5,
+                text: "Used their round trip service for wedding. Perfect timing, well-maintained car. Trustworthy service since 2020."
+            },
+            {
+                name: "Anjali Gupta",
+                initial: "A",
+                rating: 5,
+                text: "Booked for local city rides multiple times. Always on time and professional. Their customer support is very responsive."
+            },
+            {
+                name: "Rahul Mishra",
+                initial: "R",
+                rating: 5,
+                text: "Airport pickup service is excellent. Driver tracked my flight and was waiting when I arrived. Hassle-free experience."
+            },
+            {
+                name: "Neha Yadav",
+                initial: "N",
+                rating: 5,
+                text: "Family trip to nearby city. Spacious car, safe driver, good rates. Perfect for family travels."
+            },
+            {
+                name: "Sanjay Tiwari",
+                initial: "S",
+                rating: 5,
+                text: "Corporate travel partner for our company. Professional service, timely invoices, reliable drivers."
+            },
+            {
+                name: "Pooja Reddy",
+                initial: "P",
+                rating: 5,
+                text: "Women-friendly service. Felt safe traveling alone at night. Driver was respectful and professional."
+            },
+            {
+                name: "Manish Jain",
+                initial: "M",
+                rating: 5,
+                text: "Long distance trip to Kolkata. Comfortable journey, fuel included, no hidden charges. Good value for money."
+            },
+            {
+                name: "Kavita Das",
+                initial: "K",
+                rating: 5,
+                text: "Emergency ride to hospital at 3 AM. They arrived quickly and helped with patient. Very compassionate service."
+            },
+            {
+                name: "Alok Choudhary",
+                initial: "A",
+                rating: 5,
+                text: "Regular customer for local rides. Consistent quality, same driver often assigned who knows my preferences."
+            },
+            {
+                name: "Meera Kapoor",
+                initial: "M",
+                rating: 5,
+                text: "Booked for wedding guests transportation. Multiple cabs, all arrived on time. Well coordinated service."
+            },
+            {
+                name: "Rohan Malhotra",
+                initial: "R",
+                rating: 5,
+                text: "Outstation trip with friends. Ample luggage space, comfortable seating for 4 people. Enjoyable journey."
+            },
+            {
+                name: "Sunita Nair",
+                initial: "S",
+                rating: 5,
+                text: "Senior citizen friendly. Driver helped with luggage and was patient. Good service for elderly passengers."
+            },
+            {
+                name: "Deepak Mehta",
+                initial: "D",
+                rating: 5,
+                text: "Business trip to multiple cities. Professional driver, clean car, good mileage. Perfect for corporate travel."
+            },
+            {
+                name: "Shweta Bose",
+                initial: "S",
+                rating: 5,
+                text: "Regular user for market visits. Affordable local rates, clean cars, verified drivers. Trusted service."
+            },
+            {
+                name: "Arun Khanna",
+                initial: "A",
+                rating: 5,
+                text: "Airport transfer with family. Car was clean and spacious. Driver helped with luggage. Smooth experience."
+            },
+            {
+                name: "Nisha Agarwal",
+                initial: "N",
+                rating: 5,
+                text: "Best cab service in town! Used for all types of travel - local, outstation, airport. Never disappointed."
+            }
+        ];
+        
+        // Generate testimonials
+        const testimonialsSlider = document.getElementById('testimonialsSlider');
+        
+        testimonials.forEach(testimonial => {
+            const card = document.createElement('div');
+            card.className = 'testimonial-card';
+            
+            let stars = '';
+            for (let i = 0; i < testimonial.rating; i++) {
+                stars += '★';
+            }
+            
+            card.innerHTML = `
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">${testimonial.initial}</div>
+                    <div class="testimonial-info">
+                        <h4>${testimonial.name}</h4>
+                        <div class="rating">${stars}</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">"${testimonial.text}"</div>
+            `;
+            
+            testimonialsSlider.appendChild(card);
+        });
+        
+        // Auto-scroll testimonials
+        let scrollPosition = 0;
+        const slideWidth = 380; // card width + gap
+        
+        function autoScrollTestimonials() {
+            scrollPosition += slideWidth;
+            
+            if (scrollPosition >= testimonialsSlider.scrollWidth - testimonialsSlider.clientWidth) {
+                scrollPosition = 0;
+            }
+            
+            testimonialsSlider.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Auto-scroll every 5 seconds
+        setInterval(autoScrollTestimonials, 5000);
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Initialize date and time fields with current values
+        window.addEventListener('DOMContentLoaded', () => {
+            const today = new Date();
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            
+            // Format date as YYYY-MM-DD
+            const formattedDate = tomorrow.toISOString().split('T')[0];
+            document.getElementById('date').value = formattedDate;
+            
+            // Set default time to current time + 1 hour
+            const nextHour = new Date(today.getTime() + 60 * 60 * 1000);
+            const formattedTime = nextHour.getHours().toString().padStart(2, '0') + ':' + 
+                                 nextHour.getMinutes().toString().padStart(2, '0');
+            document.getElementById('time').value = formattedTime;
+        });
+    </script>
+</body>
+</html>
